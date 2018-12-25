@@ -102,5 +102,6 @@ class HierarchicalClustering:
         return pair
 
 
-hc = HierarchicalClustering("inputfiles/eurovision-final.csv")
-hc()
+if __name__ == "__main__":
+    hc = HierarchicalClustering("inputfiles/eurovision-final.csv")
+    hc()
