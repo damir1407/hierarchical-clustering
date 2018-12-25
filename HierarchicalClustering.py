@@ -102,5 +102,5 @@ class HierarchicalClustering:
         return pair
 
 
-hc = HierarchicalClustering("../inputfiles/eurovision-final.csv")
+hc = HierarchicalClustering("inputfiles/eurovision-final.csv")
 hc()
